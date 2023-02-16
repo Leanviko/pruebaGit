@@ -1,15 +1,4 @@
-Weird impar and 6 to 20
-Not Weird par and 2 to 5 end >20
 
-SELECT * FROM `socios`;
-SELECT * FROM `deportes`;
-SELECT * FROM `socios` WHERE( SELECT* FROM deportes WHERE nombre = tenis);
-SELECT COUNT(nombre) FROM `socios` WHERE(SELECT * FROM deportes WHERE nombre = futbol);
-
-
-SELECT * FROM `socios`;
-SELECT * FROM `deportes`;
-SELECT * FROM `socios` WHERE id_deporte=1;
 git init //Inicia el directorio .git
 git config user.name "nombreDeUsuarioGit" //identificar repositorio
 git config user.email "emailDeUsuarioGit" //identificar email
