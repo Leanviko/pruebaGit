@@ -13,4 +13,9 @@ SELECT * FROM `socios` WHERE id_deporte=1;
 git init //Inicia el directorio .git
 git config user.name "nombreDeUsuarioGit" //identificar repositorio
 git config user.email "emailDeUsuarioGit" //identificar email
-git remote add origin "http://enlace del repositorio git"
+git remote add origin "(http://enlace del repositorio git)" //
+
+git status //estados de git
+git add //guardamos de forma provisoria
+git commit -m "texto personalizado"//confirmamos el guardado del add (solo los cambios hasta ese momento)
+git push  -u origin master //master es el nombre de la rama a alque quiero subir
